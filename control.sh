@@ -1,15 +1,24 @@
 #!/bin/bash
 
-USAGE="  $0 is the main control script for the testnet.\n
-         Usage : $0 start --val-num|-n <num of validators> 
-                    stop
-                    clean
-                    status
+USAGE="$(basename $0) is the main control script for the testnet.
+Usage : $(basename $0) <action> <arguments>
+
+Actions:
+  start     --val-num|-n <num of validators>
+       Starts a network with <num_validators> 
+  configure --val-num|-n <num of validators>
+       configures a network with <num_validators> 
+  stop
+       Stops the running network
+  clean
+       Cleans up the configuration directories of the network
+  status
+       Prints the status of the network
         "
 
 function help()
 {
-  echo $usage
+  echo "$USAGE"
 }
 
 function generate_network_configs()
@@ -53,7 +62,7 @@ ARGS="$@"
 
 if [ $# -lt 1 ]
 then
-  echo "No args"
+  #echo "No args"
   help
   exit 1
 fi
