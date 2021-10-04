@@ -11,6 +11,26 @@ Hosts all the scripts used. ```scripts/helper_functions.sh``` scripts is an exam
  * /docker
 Hosts all the docker related files used to build docker images. 
 
+## Basic functionality
+The basic functionality should be implemented by the ```control.sh``` script.
+```
+control.sh is the main control script for the testnet.
+Usage : control.sh <action> <arguments>
+
+Actions:
+  start     --val-num|-n <num of validators>
+       Starts a network with <num_validators> 
+  configure --val-num|-n <num of validators>
+       configures a network with <num_validators> 
+  stop
+       Stops the running network
+  clean
+       Cleans up the configuration directories of the network
+  status
+       Prints the status of the network
+
+```
+
 ## Authors/Contributors
 * Antonios Inglezakis (@antIggl) [ inglezakis.a@unic.ac.cy ]
 

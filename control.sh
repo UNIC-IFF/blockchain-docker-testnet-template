@@ -1,5 +1,16 @@
 #!/bin/bash
 
+DEFAULT_ENVFILE="$(dirname $0)/defaults.env"
+ENVFILE=${ENVFILE:-"$DEFAULT_ENVFILE"}
+### Define or load default variables
+source $ENVFILE
+###
+
+### Source scripts under scripts directory
+. $(dirname $0)/scripts/helper_functions.sh
+###
+
+
 USAGE="$(basename $0) is the main control script for the testnet.
 Usage : $(basename $0) <action> <arguments>
 
