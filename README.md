@@ -34,5 +34,12 @@ Actions:
 ## Authors/Contributors
 * Antonios Inglezakis (@antIggl) [ inglezakis.a@unic.ac.cy ]
 
-# Acknowledgments
-This work is funded by the Ripple’s Impact Fund, an advised fund of Silicon Valley Community Foundation (Grant id: 2018–188546). Link: [ubri.ripple.com]
+# Research Team
+* Marios Touloupou (@mtouloup) [ touloupos.m@unic.ac.cy ]
+* Antonios Inglezakis (@antiggl) [ inglezakis.a@unic.ac.cy ]
+* Klitos Christodoulou [ christodoulou.kl@unic.ac.cy ]
+* Elias Iosif [ iosif.e@unic.ac.cy ]
+
+## UBRI Funding
+This work is funded by the Ripple’s Impact Fund, an advised fund of Silicon Valley Community Foundation (Grant id: 2018–188546).
+Link: [University Blockchain Research Initiative](https://ubri.ripple.com)
